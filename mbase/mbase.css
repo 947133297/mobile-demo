@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 0px;
+}
+
+div {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 0.66667rem;
+    height: 0.66667rem;
+}
+
+div + div {
+    margin-left: 0.03333rem;
+}
+
+section {
+    height: 0.66667rem;
+    width: 200%;
+    overflow-x: auto;
+}
